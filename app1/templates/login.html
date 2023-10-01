@@ -1,0 +1,10 @@
+<body>
+<form action="/app1/user_list" method="post">
+    {% csrf_token %}
+    <input type="text" name="user" >
+    <input type="password" name="pwd" >
+    <input type="submit" value="提交">
+
+</form>
+
+</body>
